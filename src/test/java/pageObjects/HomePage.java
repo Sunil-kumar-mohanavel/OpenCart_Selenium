@@ -16,13 +16,21 @@ public class HomePage extends BasePage {
 	
 	// locators  
 	
-	@FindBy(xpath="//a[@title='My Account']")
+	@FindBy(xpath="//span[normalize-space()='My Account']")
 	
 	WebElement lnkacc;
 	
 @FindBy(xpath="//a[normalize-space()='Register']")
 	
 	WebElement lnkreg;
+
+   
+
+ // log in
+
+  @FindBy(xpath="//a[normalize-space()='Login']")
+  
+  WebElement loin;
 
 
      // action methods
@@ -38,5 +46,14 @@ public class HomePage extends BasePage {
     	   
     	   lnkreg.click();
        }
+       
+       
+
+       public void login() {
+    	   
+    	   loin.click();
+       }
+       
+       
 	
 }

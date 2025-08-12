@@ -1,30 +1,40 @@
 package testCases;
 
 
-import org.apache.commons.lang3.RandomStringUtils;
+
 
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
 
-
+import TestBase.BaseClass;
 import pageObjects.AccRegistration;
 import pageObjects.HomePage;
 
-public class AccReg_TC01 extends BaseClass{
+public class AccReg_TC01 extends BaseClass {
 
        
          
-            @Test
+            @Test(groups= {"sanity","functional"})
             
-             void verifyaccreg() throws InterruptedException {
+         public    void verifyaccreg() throws InterruptedException {
+            
+            	
+            	try {
+            	logger.info("starting AccReg_TC01");
             	
             	HomePage h1=new HomePage(driver);
             	
             	h1.clickacc();
+            	
+            	logger.info("clicked on acc");
             	h1.clickreg();
             	
-            	AccRegistration ar= new AccRegistration(driver);
+            	logger.info("clicked on reg");
+            	
+          AccRegistration ar= new AccRegistration(driver);
+          
+          logger.info(" user info details ");
             	
             	ar.frsname(randomstring());
             	
@@ -48,36 +58,34 @@ public class AccReg_TC01 extends BaseClass{
             	
             	ar.conts();
             	
-            	
+            	logger.info(" confirmation message  ");
             	
             	String conms = ar.getconfirmationmg();
-            	Assert.assertEquals(conms, "Your Account Has Been Created!");
-            }
-            
-            
-            public String randomstring() {
             	
-            	String genst = RandomStringUtils.randomAlphabetic(6);
+            	if(conms.equals("Your Account Has Been Created!"))
+            	{
+            		Assert.assertTrue(true);
+            		
+            	}
             	
-            	return genst;
-            }
-            
-            
-  public String randomno() {
+            	else
+            	{
+            		
+            		logger.error("test failed");
+            		
+            		logger.debug("debug log");
+            		Assert.assertTrue(false);
+            	}
             	
-            	String genno = RandomStringUtils.randomNumeric(7);
-            	
-            	return genno;
-            }
-  
-  public String randomalnu() {
-  	
-  	String genalnu = RandomStringUtils.randomNumeric(2);
-  	
-  	String genstal = RandomStringUtils.randomAlphabetic(5);
-  	
-  	return (genstal+"%"+genalnu);
-  }
+             
 	
-	
+            }catch(Exception e)
+         {
+            	
+            	Assert.fail();
+         }
+            	
+            	
+            	logger.info("finsh text for AccReg_TC01");
+}
 }

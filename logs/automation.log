@@ -1,0 +1,41 @@
+15:12:50.695 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4eeea57d: 10 ms
+15:12:50.717 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@78461bc4: 7 ms
+15:12:50.717 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@544630b7: 0 ms
+15:13:05.899 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+15:13:06.141 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+15:13:27.740 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+15:13:27.970 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+15:58:59.147 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+15:58:59.382 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+16:00:35.294 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+16:00:35.515 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+16:01:15.457 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+16:01:15.710 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+16:42:31.816 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+16:42:32.006 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+17:29:40.146 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+17:29:40.380 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+19:11:21.432 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\grouping.xml"
+19:11:31.996 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\grouping.xml"
+20:59:11.840 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+20:59:12.093 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+
+21:13:58.657 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
+21:13:58.869 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
+

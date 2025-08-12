@@ -5,8 +5,6 @@
     <classes>
       <class name="testCases.AccReg_TC01">
         <methods>
-          <include name="setup"/>
-          <include name="close"/>
           <include name="verifyaccreg"/>
         </methods>
       </class> <!-- testCases.AccReg_TC01 -->
