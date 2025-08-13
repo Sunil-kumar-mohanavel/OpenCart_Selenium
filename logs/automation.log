@@ -39,3 +39,4 @@
 21:13:58.869 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml
 
+17:28:11.192 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Sunil\Studies\Java And Eclipse\Eclipse\Work Space\OpenCart_Selenium\master.xml"
